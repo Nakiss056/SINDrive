@@ -285,13 +285,13 @@ header .fa-bars{
 }
 
 .products{
-    display: center;
+    display: flex;
     flex-wrap: wrap;
     gap: 1.5rem;
 }
 
 .products .box-container{
-    display: contents;
+    display: center;
     flex-wrap: wrap;
     gap:1.5rem;
 }

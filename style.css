@@ -1,5 +1,5 @@
 :root{
-    --pink:#0e23e0;
+    --pink:#04113e;
 }
 
 
@@ -42,7 +42,7 @@ section{
     display: inline-block;
     margin-top: 1rem;
     border-radius: 5rem;
-    background: #0e23e0;
+    background: #04113e;
     color:#ffffff;
     padding:.9rem 3.5rem;
     cursor: pointer;
@@ -177,8 +177,7 @@ header .fa-bars{
 
 .home  img{
     width: 200%;
-    margin-right: auto;
-    margin-left: auto;
+    align-items: center;
     display: block;
 }
 
@@ -193,7 +192,7 @@ header .fa-bars{
 
 .home .content span{
     font-size: 3.5rem;
-    color:#0e23e0;
+    color:#04113e;
     padding:1rem 0;
     line-height: 1.5;
 }
@@ -399,7 +398,7 @@ header .fa-bars{
     font-size: 1.5;
     color: #999;
 }
-
+/*
 .contact .row{
     display: flex;
     flex-wrap: wrap-reverse;
@@ -443,7 +442,7 @@ header .fa-bars{
     height: 15rem;
     resize: none;
 }
-
+"*/
 .footer .box-container{
     display: flex;
     flex-wrap: wrap;

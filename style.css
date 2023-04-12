@@ -1,5 +1,5 @@
 :root{
-    --pink:#e84343;
+    --pink:#0e23e0;
 }
 
 
@@ -42,7 +42,7 @@ section{
     display: inline-block;
     margin-top: 1rem;
     border-radius: 5rem;
-    background: #000000;
+    background: #0e23e0;
     color:#ffffff;
     padding:.9rem 3.5rem;
     cursor: pointer;
@@ -165,15 +165,21 @@ header .fa-bars{
     }
     
 }
-
 .home{
     display: flex;
     align-items: center;
-    min-height: 100vh;
-    background:url(/images/wp10258247.jpg) no-repeat;
+    min-height: 80vh;
+    background:#fff;
     background-size: cover;
     background-position: center;
 
+}
+
+.home  img{
+    width: 200%;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
 }
 
 .home .content{
@@ -187,7 +193,7 @@ header .fa-bars{
 
 .home .content span{
     font-size: 3.5rem;
-    color:#ff0000;
+    color:#0e23e0;
     padding:1rem 0;
     line-height: 1.5;
 }

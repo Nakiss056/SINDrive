@@ -175,8 +175,9 @@ header .fa-bars{
 
 }
 
-.home  img{
-    width: 165%;
+.home .content img{
+    width: 100%;
+    height: auto;
     align-items: center;
     display: block;
 }
@@ -192,7 +193,7 @@ header .fa-bars{
 
 .home .content span{
     font-size: 3.5rem;
-    color:#04113e;
+    color:#fff;
     padding:1rem 0;
     line-height: 1.5;
 }
@@ -472,4 +473,9 @@ header .fa-bars{
 .footer .box-container .box a:hover{
     color: var(--pink);
     text-decoration: underline;
+}
+
+.responsive{
+    width: 100%;
+    height: auto;
 }

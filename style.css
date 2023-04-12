@@ -168,8 +168,8 @@ header .fa-bars{
 .home{
     display: flex;
     align-items: center;
-    min-height: 80vh;
-    background:#fff;
+    min-height: 100vh;
+    background:url(images/photo-1597773150796-e5c14ebecbf5.jpg);
     background-size: cover;
     background-position: center;
 
